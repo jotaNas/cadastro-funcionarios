@@ -36,7 +36,7 @@ Siga estas etapas para configurar e rodar o projeto:
     
     bashCopy code
     
-    `git clone https://github.com/seu-usuario/seu-projeto.git
+    `git clone https://github.com/jotanas/cadastro-funcionarios.git
     cd seu-projeto` 
     
 2.  Instale as dependências usando o Composer:
@@ -61,6 +61,15 @@ bashCopy code
 `php yii serve` 
 
 Se tudo estiver configurado corretamente, o projeto estará acessível em [http://localhost:8080](http://localhost:8080/).
+
+Agora, você pode acessar o projeto em seu navegador:
+
+-   Cadastro de Funcionários:
+    
+    -   URL: [http://localhost:8080/employee](http://localhost:8080/employee)
+-   Cadastro de Funções (Roles):
+    
+    -   URL: [http://localhost:8080/role](http://localhost:8080/role)
 
 
 ## Licença
