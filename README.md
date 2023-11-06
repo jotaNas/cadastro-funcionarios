@@ -71,6 +71,23 @@ Agora, você pode acessar o projeto em seu navegador:
     
     -   URL: [http://localhost:8080/role](http://localhost:8080/role)
 
+## Endpoint de Obter Dados do Produto
+
+O endpoint "obterDadosProduto" é usado para obter informações relevantes de um produto no Mercado Livre com base no meli_id do produto.
+
+**URL:** `/index.php?r=product/obter-dados-produto&meli_id={meli_id}`
+
+**Método HTTP:** GET
+
+### Parâmetros
+
+- `meli_id` (string, obrigatório): O identificador único do produto no Mercado Livre (Exemplo: MLB1381222244).
+
+### Exemplo de Uso
+
+**Requisição HTTP:**
+
+GET host:port/index.php?r=product/obter-dados-produto&meli_id=MLB1381222244
 
 ## Licença
 
